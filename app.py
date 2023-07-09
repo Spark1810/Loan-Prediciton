@@ -13,19 +13,19 @@ from sklearn.preprocessing import LabelEncoder
 st.set_page_config(page_title="Loan Approval Prediction", page_icon='images\download.png')
 
 def main():
-    st.markdown(""" 
-        <style>
-        # .css-1rs6os.edgvbvh3
-        # {
-        # visibility: hidden;
-        # }
+    # st.markdown(""" 
+    #     <style>
+    #     # .css-1rs6os.edgvbvh3
+    #     # {
+    #     # visibility: hidden;
+    #     # }
 
-        .css-1lsmgbg.egzxvld0
-        {
-            visibility: hidden;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+    #     .css-1lsmgbg.egzxvld0
+    #     {
+    #         visibility: hidden;
+    #     }
+    #     </style>
+    # """, unsafe_allow_html=True)
 
     menu=['Home', 'About System', 'Statistical Information', 'System',]
     choice=st.sidebar.selectbox('', menu)
