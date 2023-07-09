@@ -27,8 +27,8 @@ def main():
     #     </style>
     # """, unsafe_allow_html=True)
 
-    menu=['Home', 'About System', 'Statistical Information', 'System',]
-    choice=st.sidebar.selectbox('', menu)
+    menu=['Home', 'About System', 'Statistical Information', 'System']
+    choice=st.sidebar.selectbox('Menu', menu)
 
     if(choice=='Home'):
         st.title('Loan Approval Prediction', '\n')
