@@ -68,7 +68,7 @@ def main():
 
     elif choice == 'Statistical Information':
         st.title('Loan Approval Prediction', '\n')
-        df1 = pd.read_csv('train_ctrUa4K.csv')
+        df1 = pd.read_csv('data/train_ctrUa4K.csv')
 
         for col in df1[['Gender','Married','Dependents','Education','Self_Employed', 'Credit_History', 'Property_Area', 'Loan_Status']]:
             if col != 'Loan_Status':
