@@ -1,1 +1,8 @@
 joblib
+time
+pandas
+streamlit
+plotly
+seaborn 
+matplotlib
+sklearn
